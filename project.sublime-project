@@ -11,7 +11,11 @@
 	"folders":
 	[
 		{
-			"path": "."
+			"path": ".",
+			"folder_exclude_patterns": [
+				".vagrant",
+				"provisioning"
+			]
 		}
 	],
 	"settings": {
