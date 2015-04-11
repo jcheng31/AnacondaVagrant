@@ -13,5 +13,14 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"vagrant_environment": {
+			"directory": "./",
+			"network": {
+				"mode": "forwarded",
+				"port": 1936 // Must match the host port in Vagrantfile.
+			}
+		}
+	}
 }
