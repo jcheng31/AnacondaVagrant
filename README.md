@@ -4,7 +4,7 @@ Vagrant provisioning for [Anaconda](https://github.com/DamnWidget/anaconda) supp
 There's nothing too special here - just a provisioning script that'll install the [server](https://damnwidget.github.io/anaconda/vagrant/) Anaconda needs, and a Sublime Text project set up to use it.
 
 ## What do I need to do?
-Clone the repo, optionally tweak the configuration files (see below), then `vagrant up` and you're set. 
+Clone the repo, optionally tweak the configuration files (see below), then `vagrant up` and you're set. Open `project.sublime-project` with Sublime, and code away.
 
 Each time you boot the VM*, `vagrant ssh`, `cd /opt/anaconda/`, then run `python server.py` (or `python3 server.py` if you feel like it)
 
