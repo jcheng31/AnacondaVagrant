@@ -1,4 +1,5 @@
 # Main provisioning. Installs git, which is used to clone the Anaconda server.
+apt-get update
 apt-get -y install git
 
 # Anaconda set-up.
